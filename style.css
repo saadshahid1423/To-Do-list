@@ -1,0 +1,57 @@
+.image{
+    width: 20px;
+    height: 20px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+.type{
+    font-size: x-large;
+}
+.all{
+    margin-left: 500px;
+}
+.reedit{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.start{
+    color: greenyellow;
+    text-decoration: underline;
+}
+.name{
+    background-color: grey;
+    width: 327px;
+    border-radius: 10px;
+}
+.full{
+    background-color: black;
+}
+.end{
+    color: white;
+    text-decoration: underline;
+}
+.add{
+    border-radius: 15px;
+    background-color: grey;
+    cursor: pointer;
+}
+.enter{
+    border-radius: 5px;
+}
+@media screen and (max-width: 860px){
+    .all{
+        margin-left: 300px;
+    }
+}
+@media screen and (max-width: 650px){
+    .all{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width: 450px){
+    .all{
+        margin-left: 0px;
+    }
+}
